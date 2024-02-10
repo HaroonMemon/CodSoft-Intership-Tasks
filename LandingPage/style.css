@@ -1,0 +1,541 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+.container .main {
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid; */
+}
+
+/* Header Header Header Header Header Header Header */
+
+.container .main .header {
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    box-shadow: 1px 1px 5px 1px grey;
+    background-color: white;
+}
+
+.container .main .header .logo {
+    width: 20%;
+    /* background-color: yellow; */
+}
+
+.container .main .header .logo h1 {
+    font-size: 2.5rem;
+}
+
+.container .main .header .logo h1:hover {
+    cursor: pointer;
+}
+
+.container .main span {
+    color: #e27761;
+}
+
+.container .main .header .navBar {
+    margin: 0px 0px 0px 50px;
+    width: 50%;
+    /* background-color: green; */
+}
+
+.container .main .header .navBar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .main .header .navBar ul li {
+    list-style: none;
+    /* width: 200px; */
+}
+
+.container .main .header .navBar ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.container .main .header .navBar ul li a:hover {
+    color: #e27761;
+    border-bottom: 1px solid;
+    transition: 0.5s;
+}
+
+.container .main .header .navBtn {
+    margin: 0px 10px 0px 0px;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+.container .main .header .navBtn button {
+    width: 80px;
+    padding: 7px 15px;
+    font-size: 1.1rem;
+    background: transparent;
+    border: none;
+    /* font-weight: ; */
+}
+
+.container .main .header .navBtn .logInBtn:hover {
+    color: #e27761;
+    border: 2px solid;
+    transition: 0.5s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container .main .header .navBtn .signUpBtn {
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.container .main .header .navBtn .signUpBtn:hover {
+    color: #e27761;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Home Home Home Home Home Home Home Home Home */
+
+.container .main .home {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+}
+
+.container .main .home .homeInner {
+    margin: 80px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.container .main .home .homeInner .homeLeft {
+    width: 50%;
+    /* border: 1px solid; */
+}
+
+.container .main .home .homeInner .homeLeft .bestp {
+    margin: 50px 0px 0px 0px;
+    color: #e27761;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.container .main .home .homeInner .homeLeft h1 {
+    margin: 10px 0px 0px 0px;
+    font-size: 5.5rem;
+    color: #171e4c;
+}
+
+.container .main .home .homeInner .homeLeft .embarkp {
+    margin: 20px 0px 20px 0px;
+    line-height: 25px;
+    color: #696d8a;
+    text-align: justify;
+    width: 85%;
+
+}
+
+.container .main .home .homeInner .homeLeft .homeBtn {
+    padding: 15px 25px;
+    font-size: 1rem;
+    background-color: #e27761;
+    border: 2px solid #e27761;
+    border-radius: 5px;
+    color: white;
+}
+
+.container .main .home .homeInner .homeLeft .homeBtn:hover {
+    color: #e27761;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container .main .home .homeInner .homeRight {
+    width: 50%;
+}
+
+.container .main .home .homeInner .homeRight img {
+    width: 90%;
+    height: 600px;
+}
+
+/* Services Services Services Services Services Services */
+
+.services {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+}
+
+.service .serviceInner {
+    width: 100%;
+    margin: 0px auto 100px auto;
+}
+
+.service .serviceInner h1 {
+    margin: 80px 0px 50px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.service .serviceInner .cards {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service .serviceInner .cards .card {
+    padding: 20px 20px;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 25px;
+    /* border: 1px solid; */
+}
+
+.service .serviceInner .cards .card:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.service .serviceInner .cards .card img {
+    margin: 0px 0px 0px 0px;
+}
+
+.service .serviceInner .cards .card h3 {
+    margin: 20px 0px 0px 0px;
+    text-transform: capitalize;
+}
+
+.service .serviceInner .cards .card p {
+    margin: 20px 0px 0px 0px;
+    color: #696d8a;
+}
+
+
+/* Destination Destination Destination Destination */
+
+.destination {
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.destination .destinationInner {
+    margin: 0px 0px 100px 0px;
+    width: 100%;
+}
+
+.destination .destinationInner h1 {
+    margin: 80px 0px 50px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.destination .destinationInner .cards {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.destination .destinationInner .cards .card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 400px;
+    border-radius: 20px;
+    /* line-height: 25px; */
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    overflow: hidden;
+    color: #696d8a;
+}
+
+.destination .destinationInner .cards .card .destinationImg {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.destination .destinationInner .cards .card .destinationImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.destination .destinationInner .cards .card:hover>.destinationImg img {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.destination .destinationInner .cards .card div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.destination .destinationInner .cards .card p {
+    /* text-align: left; */
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    /* text-align: left; */
+}
+
+
+.destination .destinationInner .cards .card .textRight {
+    justify-content: end;
+}
+
+.destination .destinationInner .cards .card p img {
+    margin: 0px 10px 0px 0px;
+    width: 1rem;
+}
+
+/* Booking Booking Booking Booking Booking */
+
+.booking{
+    width: 100%;
+    /* border: 1px solid; */
+}
+.booking .bookingInner{
+    padding: 100px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.booking .bookingInner .bookingLeft{
+    padding: 0px 0px 0px 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.booking .bookingInner .bookingLeft h1{
+    margin: 0px 0px 20px 0px;
+    font-size: 3.5rem;
+}
+
+.booking .bookingInner .bookingLeft .box{
+    margin: 20px 0px 0px 0px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    color: #696d8a;
+}
+.booking .bookingInner .bookingLeft .box .img img{
+    margin:  0px 20px 0px 0px;
+    width: 70px;
+    height: 70px;
+}
+.booking .bookingInner .bookingLeft .box p{
+    margin: 5px 0px 0px 0px;
+}
+
+.booking .bookingInner .bookingRight{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking .bookingInner .bookingRight .card{
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+.booking .bookingInner .bookingRight .card .greceImg{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.booking .bookingInner .bookingRight .card h3{
+    margin: 10px 0px 0px 0px;
+}
+
+
+.booking .bookingInner .bookingRight .card p{
+    margin: 10px 0px 10px 0px;
+    color: #696d8a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.booking .bookingInner .bookingRight .card p img{
+    margin: 0px 10px 0px 0px;
+    width: 25px;
+    height: 25px ;    
+}
+.booking .bookingInner .bookingRight .card .tripImg img{
+    margin: 0px 15px 0px 0px;
+    width: 20px;
+    height: 20px ;
+}
+
+/* Footer Footer Footer Footer Footer Footer */
+
+.footer {
+    width: 100%;
+}
+
+
+.footer .copy{
+    width: 100%;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.footer .footerInner {
+    padding: 50px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+
+}
+
+.footer .footerInner div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+
+.footer .footerInner div h1,
+.footer .footerInner div h3 {
+    margin: 20px 0px 0px 0x;
+}
+.footer .footerInner .logo {
+    width: 20%;
+    padding: 20px;
+    /* border: 1px solid; */
+}
+
+
+.footer .footerInner .logo p {
+    margin: 30px 0px 0px 0px;
+    width: 80%;
+    font-size: 0.9rem;
+    color: #696d8a;
+}
+.footer .footerInner .card ul{
+    margin: 30px 0px 0px 0px;
+}
+.footer .footerInner .card li{
+    list-style: none;
+    margin: 10px 0px 0px 0px;
+}
+.footer .footerInner .card li a{
+    text-decoration: none;
+    color: #696d8a;
+}
+.footer .footerInner .company {
+    padding: 20px;
+    width: 20%;
+    /* border: 1px solid; */
+}
+
+.footer .footerInner .contact {
+    padding: 20px;
+    width: 20%;
+    /* border: 1px solid; */
+}
+
+.footer .footerInner .more {
+    padding: 20px;
+    width: 20%;
+    /* border: 1px solid; */
+}
+
+.footer .footerInner .social {
+    padding: 20px;
+    width: 20%;
+    align-items: center;
+    justify-content: start;
+    /* border: 1px solid; */
+}
+.footer .footerInner .social .socialImg {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer .footerInner .social .socialImg img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer .footerInner .social p{
+    margin: 20px 0px 20px 0px;
+    text-align: left;
+}
+.footer .footerInner .social .downloadImg{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer .footerInner .social .downloadImg img {
+    width: 40%;
+    height: 40px;
+}
